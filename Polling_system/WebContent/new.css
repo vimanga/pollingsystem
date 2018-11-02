@@ -1,0 +1,79 @@
+a {
+    color: #47C6F8;
+}
+a:hover {
+    color: #0FF;
+}
+
+.navbar-default
+{
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    margin: 0 !important;
+}
+.navbar-default .navbar-brand
+{
+    font-weight: 500;
+    font-size: 30px;
+    height: 70px;
+    line-height: 40px;
+    padding: 12px 0px 0px 12px;
+}
+.navbar-default .navbar-nav li a
+{
+    font-weight: bold;
+    font-size: 13px;
+    height: 70px;
+    line-height: 40px;
+}
+
+.navbar-default .navbar-nav > li > a.current {
+    color: #28A7E9;
+}
+.templatemo-nav {
+    border-radius: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.mainBackground{
+    background-image:url("image/back.jpg");
+   	height:627px
+}
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=password], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+	color: white;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.rowlg:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
